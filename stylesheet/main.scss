@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import "./extends.scss";
+@import "./mixins.scss";
+@import "./maps.scss";
+@import "./var.scss";
+@import "./header.scss";
+@import "./footer.scss";

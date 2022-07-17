@@ -1,0 +1,36 @@
+.logo {
+    height: 60px;
+}
+header {
+    margin-top: 105px;
+}
+.bg-gr {
+    background-color: rgb(51, 50, 50);
+}
+.bg-gra {
+    color: $secondColor !important;
+    font-weight: bold !important;
+}
+.bg-gra:hover {
+    color: $primaryColor !important;
+}
+#parrafoText {
+    background-color: $secondColor;
+    border: 5px solid rgb(35, 35, 35);
+    border-radius: 5px;
+}
+
+.formularioCss {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    border: 2px solid rgb(51, 50, 50);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.imgSpace {
+    max-width: 100%;
+}
