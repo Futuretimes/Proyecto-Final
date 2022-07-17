@@ -61,6 +61,9 @@
 header {
   margin-top: 105px;
 }
+header .fontLogo {
+  height: 20px;
+}
 
 .bg-gr {
   background-color: rgb(51, 50, 50);
