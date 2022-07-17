@@ -80,8 +80,7 @@ header .fontLogo {
 
 #parrafoText {
   background-color: rgb(255, 255, 255);
-  border: 5px solid rgb(35, 35, 35);
-  border-radius: 5px;
+  border: 2px solid rgb(35, 35, 35);
 }
 
 .formularioCss {
@@ -97,6 +96,14 @@ header .fontLogo {
 
 .imgSpace {
   max-width: 100%;
+}
+
+.styleIframe {
+  border: 4px solid #20156a;
+}
+
+.img-fluid {
+  border-radius: 6px;
 }
 
 .footerText {
