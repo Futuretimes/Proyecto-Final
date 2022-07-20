@@ -1,6 +1,8 @@
+@import "./var";
+
 $estilos: (
-    color: #20156a,
-    color2: #ffffff,
+    color: $threeColor,
+    color2: $secondColor,
     centro: center,
     tfuente: 35px,
     rem: 1rem

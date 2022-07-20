@@ -1,10 +1,12 @@
+@import "./var";
+
 .botons {
     display: flex;
     justify-content: center;
 }
 
 .btn-1 {
-    background-color: #20156a;
+    background-color: $threeColor;
     padding-left: 13px;
     padding-right: 13px;
     margin-left: 10px;
@@ -15,7 +17,7 @@
     font-weight: bold;
     a {
         text-decoration: none;
-        color: #ffffff;
+        color: $secondColor;
     }
 }
 

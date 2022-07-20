@@ -66,21 +66,21 @@ header .fontLogo {
 }
 
 .bg-gr {
-  background-color: rgb(51, 50, 50);
+  background-color: #333232;
 }
 
 .bg-gra {
-  color: rgb(255, 255, 255) !important;
+  color: #ffffff !important;
   font-weight: bold !important;
 }
 
 .bg-gra:hover {
-  color: rgb(0, 200, 255) !important;
+  color: #00c8ff !important;
 }
 
 #parrafoText {
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(35, 35, 35);
+  background-color: #20156a;
+  color: #ffffff;
 }
 
 .formularioCss {
@@ -88,7 +88,7 @@ header .fontLogo {
   margin-right: 50px;
   margin-bottom: 70px;
   margin-top: 20px;
-  border: 2px solid rgb(51, 50, 50);
+  border: 2px solid #333232;
   border-radius: 10px;
   padding: 10px;
   font-weight: bold;
@@ -98,27 +98,24 @@ header .fontLogo {
   max-width: 100%;
 }
 
-.styleIframe {
-  border: 4px solid #20156a;
-}
-
 .img-fluid {
   border-radius: 6px;
+  box-shadow: 3px 5px 5px #000000;
 }
 
 .footerText {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: bold;
 }
 
 .footerText a {
   text-decoration: none;
-  color: rgb(0, 200, 255);
+  color: #00c8ff;
 }
 
 .footerIcons {
   display: flex;
-  background-color: rgb(51, 50, 50);
+  background-color: #333232;
   justify-content: center;
 }
 
@@ -141,7 +138,7 @@ header .fontLogo {
 
 .iconsFooter {
   font-size: 30px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

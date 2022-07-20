@@ -1,3 +1,5 @@
+@import "./var";
+
 .logo {
     height: 60px;
 }
@@ -8,7 +10,7 @@ header {
     }
 }
 .bg-gr {
-    background-color: rgb(51, 50, 50);
+    background-color: $fourColor;
 }
 .bg-gra {
     color: $secondColor !important;
@@ -18,8 +20,8 @@ header {
     color: $primaryColor !important;
 }
 #parrafoText {
-    background-color: $secondColor;
-    border: 2px solid rgb(35, 35, 35);
+    background-color: $threeColor;
+    color: $secondColor;
 }
 
 .formularioCss {
@@ -27,7 +29,7 @@ header {
     margin-right: 50px;
     margin-bottom: 70px;
     margin-top: 20px;
-    border: 2px solid rgb(51, 50, 50);
+    border: 2px solid $fourColor;
     border-radius: 10px;
     padding: 10px;
     font-weight: bold;
@@ -37,10 +39,7 @@ header {
     max-width: 100%;
 }
 
-.styleIframe {
-    border: 4px solid #20156a;
-}
-
 .img-fluid {
     border-radius: 6px;
+    box-shadow: 3px 5px 5px #000000;
 }

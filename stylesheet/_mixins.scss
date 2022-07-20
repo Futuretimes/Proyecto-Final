@@ -1,3 +1,5 @@
+@import "./var";
+
 @mixin sizes ($width, $height) {
     height: $height;
     width: $width;
@@ -8,8 +10,8 @@
     justify-content: center;
     .box {
         @include sizes(60px, 25px);
-        background-color: #20156a;
-        color: #ffffff;
+        background-color: $threeColor;
+        color: $secondColor;
         border: 0px;
         border-radius: 5px;
         text-align: center;
