@@ -30,6 +30,10 @@
   padding-right: 7px;
 }
 
+.botonAnimation:hover {
+  transform: scale(1.07);
+}
+
 .articleBox {
   display: flex;
   justify-content: center;
