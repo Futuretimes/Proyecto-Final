@@ -1,5 +1,9 @@
 @import "./var";
 
+@keyframes scale-in-center {
+    0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}
+}
+
 .logo {
     height: 60px;
 }
@@ -42,4 +46,5 @@ header {
 .img-fluid {
     border-radius: 6px;
     box-shadow: 3px 5px 5px #000000;
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
 }
